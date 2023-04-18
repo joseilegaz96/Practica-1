@@ -1,0 +1,42 @@
+body {
+    background: rgb(185,139,162);
+    background: linear-gradient(126deg, rgba(185,139,162,1) 28%, rgba(142,108,152,1) 51%, rgba(109,84,161,1) 86%); 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+article {
+    width: 300px;
+    height: fit-content;
+    background-color: whitesmoke;
+    opacity: 0.80;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin: 0.5%;
+    padding: 0.5rem;
+}
+
+time {
+    color: gray;
+    font: sans-serif;
+}
+
+h3 { 
+    margin: 0.5%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
